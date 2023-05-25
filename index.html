@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!--------header------------>
+    <div class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu"></i>
+    
+        <nav class="navbar ">
+        
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+    <!--------homedesign------------>
+    <section  id="home" class="home">
+        <div class="homecontent">
+            <h3>Hello, It's Me </h3>
+            <h1>Stephin Tomy</h1>
+            <h3>And I'm a <span>frontend Developer</span></h3>
+            <p>I’m from Palakkad, Kerala, curious to learn more about developing scalable distributed systems, 
+                loves problem solving and cares about writing readable as well as maintainable code.</p>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/stephin.tomy.1/"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://www.instagram.com/stephin_popz/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://in.linkedin.com/in/stephin-tomy-5152ab167"><i class='bx bxl-linkedin' ></i></a>
+            </div>  
+            <a href="image/myresume.pdf" class="btn">Download CV</a>  
+        </div>    
+            <div class="img"><img src="image/photo_2023-05-05_10-04-50.jpg" alt="propic">
+            
+
+        </div>
+    </section>
+    <!--------about------------>
+    <section class="about" id="about">
+        <div class="aboutimg">
+            <img src="image/photo_2023-05-05_10-04-40.jpg" alt="">
+        </div>
+        <div class="aboutcontent">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer !</h3>
+            <p>My name is Stephin Tomy, and I am a passionate front-end developer. I completed my Bachelor of Engineering in Computer Science from Brindavan College of Engineering in Bangalore in 2022. Since then, I have been immersed in the exciting world of web development, honing my skills and constantly learning to stay at the forefront of this dynamic field.As a front-end developer, I specialize in creating visually appealing and interactive user interfaces for websites and web applications. I have a strong foundation in HTML, CSS, and JavaScript, which form the building blocks of front-end development. These technologies allow me to structure and style web pages, while also enabling me to add functionality and interactivity to enhance the user experience.As a lifelong learner, I am always exploring new trends and emerging technologies in the front-end development landscape. I stay up to date with the latest industry standards and best practices, regularly engaging in online communities and attending webinars and conferences. This allows me to continuously enhance my skills and deliver innovative solutions to complex problems.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <!--------services------------>
+    <section class="services" id="services">
+        <h2 class="heading">Provided <span>Services</span></h2>
+        <div class="servicescontainer">
+            <div class="servicesbox"><i class='bx bx-code-alt'></i><h3>Web development</h3>
+            <p>Web design involves the creative and visual aspects of building a website. It encompasses the overall look and feel, layout, color schemes, typography, and graphic elements of a website. As a web designer, you have the skills to create aesthetically pleasing and user-friendly interfaces.</p><a href="#" class="btn">Read More</a></div>
+            <div class="servicesbox"><i class='bx bx-credit-card-front' ></i><h3>Frontend</h3>
+                <p>Front-end development focuses on implementing the design and bringing it to life in the web browser. It involves working with HTML, CSS, and JavaScript to build the user interface that visitors interact with. As a front-end developer, you take the design files and convert them into actual web pages, </p><a href="#" class="btn">Read More</a></div>
+                <div class="servicesbox"><i class='bx bx-cog' ></i></i><h3>Backend</h3>
+                    <p>Back-end development deals with the server-side aspects of a website or web application. It involves building the server logic, database management, and handling the business logic of the application. As a back-end developer, you work with server-side programming languages like Python,php.</p><a href="#" class="btn">Read More</a></div>
+        </div>
+    </section>
+    <!--------protofilo--------->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfoliocontainer">
+            <div class="Portfoliobox">
+                <img src="image/nima.png" alt="">
+                <div class="portfoliolayer"><h4>Web Design</h4>
+                <p>I am currently working on a project to develop a cloth shop website. This website aims to provide an online platform for customers to browse and purchase a wide range of clothing products. The project involves both front-end </p><a href="https://stevemkd.github.io/nimmafashion/"><i class='bx bx-link'></i></a></div>
+            </div>
+            <div class="Portfoliobox">
+                <img src="image/travel.png" alt="">
+                <div class="portfoliolayer"><h4>Web Design</h4>
+                <p>I am currently working on a project to develop a travel website that aims to provide users with a comprehensive platform to explore and plan their travel experiences. The website will offer a wide range of features and functionality to assist users in discovering destinations, booking accommodations, and organizing their travel itineraries.</p><a href="https://stevemkd.github.io/Travel/"><i class='bx bx-link'></i></a></div>
+            </div>
+            </div>
+    </section>
+    <!--------contact--------->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+            <form name="submit-to-google-sheet">
+                <div class="inputbox">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="inputbox">
+                    <input type="number"  name="number" placeholder="Enter Phone No" required>
+                    <input type="text" name="subject" placeholder="Email Subject" required>
+                </div>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+            <span id="msg"></span>
+    </section>
+    <footer class="footer">
+        <div class="footertext">
+            <p>Copyright &copy; 2023 By Stephin Tomy | All Rights Reserved</p>
+        </div>
+        <div class="footericon">
+            <a href="#home">
+            <i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="image/script.js">
+
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxxMOR2SNvkQTqECoIO92gKAd5sJYcVMO52D8JtIiNaLaqGGsvIDmPO5zJv5bH0IyM/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML='Message sent succesfully';
+            setTimeout(function(){
+                msg.innerHTML='';
+            },5000),
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>

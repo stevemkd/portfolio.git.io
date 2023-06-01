@@ -30,7 +30,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.homecontent,.heading', { origin: 'top' });
-ScrollReveal().reveal('.img,.aboutimg,.servicescontainer,.Portfoliobox,.contact', { origin: 'bottom' });
+ScrollReveal().reveal('.img,.aboutimg,.servicescontainer', { origin: 'bottom' });
 
 ScrollReveal().reveal('.homecontent h1', { origin: 'left' });
 

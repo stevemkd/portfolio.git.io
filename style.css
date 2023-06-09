@@ -417,7 +417,15 @@ section{
     }
     
 }
-  
+  @media (max-width:412px){
+    .portfoliolayer h4{
+        font-size: 2rem;
+
+    }
+      .portfoliolayer p{
+          font-size: 0.6rem;
+      }
+}
    
     
 
